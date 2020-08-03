@@ -17,8 +17,11 @@ go get -v github.com/rs/zerolog/log
 
 ```
 
-After running `build.sh`, three files (`nbia_cli_linux_amd64`, `nbia_cli_darwin` and `nbia_cli_win64.exe`) are built in the directory. Assuming one wants to run the NBIA command line data retriever on linux, one can go on and simply run `nbia_cli_linux_amd64` with the syntax that follows.
+After running `build.sh`, three files (`nbia_cli_linux_amd64`, `nbia_cli_darwin` and `nbia_cli_win64.exe`) are built in the directory. Assuming one wants to run the NBIA command line data retriever on linux, after the previous step one can go on and simply run `nbia_cli_linux_amd64` with the syntax that follows (see the "Command Line Usage" section for details):
 
+```
+./nbia_cli_linux_amd64 --input ../data/path_to_manifest/NBIA-manifest-xxxxxxxxxxx.tcia --output ../data/path_to_output/
+```
 
 ## Command Line Usage
 
